@@ -9,10 +9,11 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
+     
     }
 
     #container {
-        background: url("/img/Roses\,\ Flowers.jpg")no-repeat center center/cover;
+        background: url("PerfectImg.jpg")no-repeat center center/cover;
        max-width: 500px;
         min-height: 400px;
         border-radius: 20px;
@@ -39,8 +40,8 @@
         justify-content: center;
       align-items: center;
       flex-direction: column;
-        padding: 2rem;
-        color: white;
+        padding: 2.5rem;
+        color: black;
         font-size: 1.2rem;
         text-align: left;
        }
@@ -60,9 +61,9 @@
 
 #showMe{
   margin: 5px;
-  color: white;
+  color: rebeccapurple;
   font-weight: 700;
-  font-size: 14px;
-  text-align: l;
+  font-size: 2rem;
+
 
 }
