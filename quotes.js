@@ -1,4 +1,4 @@
-  export  const  Quotes = [
+  export const Quotes = [
     {
         "text": "Life is what happens when you're busy making other plans.",
         "author": "John Lennon"

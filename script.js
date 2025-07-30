@@ -1,16 +1,14 @@
    
-   import {Quotes} from "./quotes.js";
-  
+import { Quotes } from "./quotes.js"
       const btn = document.querySelector(".btn");
-      const showHere = document.querySelector(".showHere");
-
-      const author = document.getElementById("author")
+      const showText= document.querySelector(".showText p");
+      const showAuthor = document.getElementById("showAuthor")
 
      
-      btn.addEventListener("click",function whatHapp(){
+      btn.addEventListener("click", function whatHapp(){
          let random = Math.floor(Math.random() * Quotes.length)
-          showHere.innerHTML = Quotes[random].text
-         author.innerHTML = Quotes[random].author
+          showText.innerHTML = Quotes[random].text
+         showAuthor.innerHTML = Quotes[random].author
         
       })
 
